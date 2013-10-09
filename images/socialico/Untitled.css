@@ -1,0 +1,7 @@
+#container li {
+background-image: url("Untitled.png");
+    background-repeat: no-repeat;   
+    list-style: none outside none;
+}	
+.sprite-Paper-Plane-1{background-position:0px 0px ; width: 100px ; height: 100px; }
+.sprite-Paper-Plane{background-position:-100px 0px ; width: 100px ; height: 100px; }

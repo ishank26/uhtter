@@ -1,0 +1,83 @@
+
+/*#FF1A8B94 icon color blue wala*/
+
+* { margin: 0; padding: 0; }
+
+
+#menu{
+margin: 0px auto; 
+list-style: none; 
+height:110px;
+width:100%;
+background: #0B2C28;
+-webkit-box-shadow:0px 5px 4px #071614;
+z-index:999;
+/*position:fixed;*/
+}
+#menu li { 
+display:inline;
+position:relative;
+}
+.list{
+
+width:auto;
+height:auto;
+
+margin-left:440px;
+}
+.list li a{ 
+float:left;
+margin-top:10px;
+padding-right:80px;
+width:70px;
+height:70px;
+text-decoration: none;
+background-position:0 -70px;
+background-repeat:no-repeat;
+-webkit-transition:all ease-in-out 0.2s;
+	}
+#menu li a:hover{
+position:relative;
+background-position:0 0px;
+-webkit-transition:all ease-in-out 0.2s;
+}
+#menu li  a p{
+position:relative;
+padding:85px 0px 0px 15px;
+opacity:0;
+-webkit-transition:all  ease-in-out 0.2s;
+ font-family: 'pt_sansbold';
+color:#ffffff;	 
+}
+
+#menu li a:hover  p{
+opacity:1;
+padding:70px 0px 0px 15px;
+-webkit-transition:all  ease-in-out 0.2s;
+}
+
+
+
+#menu .list1{
+background-image:url(../images/head/ho.png) ;
+}
+#menu .list2{
+background-image:url(../images/head/cu.png) ;
+
+}
+#menu .list3{
+background-image:url(../images/head/code.png) ;
+}
+#menu .list4{
+background-image:url(../images/head/abt.png) ;
+}
+#menu .list5{
+background-image:url(../images/head/set.png) ;
+}
+
+
+
+
+
+
+	

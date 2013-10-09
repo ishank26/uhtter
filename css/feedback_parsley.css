@@ -1,0 +1,29 @@
+   input.parsley-success
+            {
+              color: #468847 !important;
+              background-color: #DFF0D8 !important;
+              border: 1px solid #D6E9C6 !important;
+            }
+            input.parsley-error
+            {
+              color:#FFFFFF!important;
+              background-color:#B484EB!important;
+              border: 1px solid #EED3D7 !important;
+			  
+            }
+			
+            
+            ul.parsley-error-list li
+            {
+		     display:inline;
+			 font-size: 15px;
+               font-family: 'pt_sans_captionregular';
+			      color:#331754;
+                list-style-type:none;
+             line-height: 15px;
+		   margin-top:-35px;
+            margin-left:35px;
+			margin-bottom:0px;
+			
+			}
+            

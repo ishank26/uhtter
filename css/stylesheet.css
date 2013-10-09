@@ -1,0 +1,177 @@
+
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Bitter:700);
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-size: 14px;
+    
+    font-family: Tahoma;
+  
+}
+.container
+{
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #B0CEFF;
+}
+.header
+{
+    width:auto;
+    height:422px;
+	background-color: green;
+	
+	
+}
+.heading{
+
+width:360px;
+height:140px;
+background-color:#6AD3D1;
+-webkit-border-radius:32px;
+border-radius:32px;
+border:dashed 5px #FBFFFF;
+-moz-box-shadow: 0 0 0 4px #85CBCA, 2px 1px 4px 4px rgba(10,10,0,.5);
+-webkit-box-shadow: 0 0 0 4px #85CBCA, 2px 1px 4px 4px rgba(10,10,0,.5); 
+box-shadow: 0 0 0 8px #85CBCA, 2px 1px 6px 4px rgba(10,10,0,.5);
+-webkit-transform:rotate(-5deg);
+-moz-transform:rotate(-5deg);
+position:relative;
+top:-260px;
+left:590px;
+}
+.heading p{
+font-size:8em;
+position:relative;
+text-align:center;
+color:#A01638;
+font-family: 'Oleo Script', cursive;
+}
+
+.sticky-navigation
+{   
+    padding: 0px;
+    background: #666666;
+    color: #FFFFFF;
+    font-size: 18px;
+    width:0%;
+    text-transform: uppercase;
+	position:relative;
+	top:-220px;
+	
+}
+.sticky-navigation.stuck
+{
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	width:5%;
+
+}
+.sticky-navigation ul
+{
+    
+   list-style-type: none; 
+    
+}
+.sticky-navigation ul li
+{
+    display: inline-block;
+    
+	margin: 0.2em;
+}
+.sticky-navigation ul a
+{
+   
+    color: #FFFFFF;
+    text-decoration: none;
+	
+}
+.sticky-navigation a:hover
+{
+    background: #999999;
+}
+.box1{
+width:90px;
+height:90px;
+background-image: url('images/collage.jpg');
+float: left;
+-webkit-transition: all ease 0.3s;
+}
+	.box1:hover{
+	background-position: 0px -90px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+
+}
+.box2{
+width:90px;
+height:90px;
+
+}
+
+/*.mask1{
+opacity:1;
+ width:90px;
+height:90px;
+background-color:red;
+position:relative;
+top:-94px;
+left:90px;
+
+
+}
+.mask2{
+opacity:0.5;
+ width:90px;
+height:90px;
+background-color:red;
+}
+
+.box1:hover .mask1{
+opacity:1;
+position:relative;
+left:0px;
+-webkit-transition: opacity 0.6s, left 0.6s;
+transition-timing-function: ease-in-out;
+box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}*/
+
+
+
+
+
+
+
+
+
+
+.contents
+{    
+    
+    font-size: 50px;   
+    padding: 20px;
+	width:auto;
+}
+.footer
+{
+    padding: 50px 0px 50px 0px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+

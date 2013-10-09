@@ -1,0 +1,14 @@
+
+
+ul, ol {
+    list-style: none;
+}
+/* gridster */
+.gridster {
+width:auto;
+ opacity:1;
+}
+
+.gridster .gs_w {
+  cursor: pointer;
+ }

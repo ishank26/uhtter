@@ -1,0 +1,175 @@
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+    height:100%;
+	max-width:200px;
+	 background:#34495E;
+}
+.horz{
+top:0px;
+width:100%;
+height:40px;
+margin:0px;
+padding:0px;
+background:#d66060;
+position:fixed;
+z-index:999;
+-webkit-box-shadow:0px 2px 3px #C83131;
+-moz-box-shadow:0px 2px 3px #C83131;
+-o-box-shadow:0px 2px 3px #C83131;
+box-shadow:0px 2px 3px #C83131;
+}
+.howto{
+position:relative;
+float:right;
+}
+.howto a{
+text-decoration:none;
+}
+.howto p{
+font-family: 'Roboto', sans-serif;
+text-decoration:none;
+align:right;
+font-size:17px;
+color:#fff;
+}
+.howto .one{
+position:relative;
+right:140px;
+top:11.5px;
+}
+.howto .two{
+position:relative;
+top:-9px;
+right:50px;
+}
+.info{
+width:430px;
+height:300px;
+position:relative;
+top:130px;
+left:75px;
+font-family: 'pt_sansbold';
+}
+.info p{
+position:relative;
+font-size:30px;
+color:#D7ACEA;
+}
+.container{
+width:100%;
+height:100%;
+
+}
+.form{
+width:500px;
+height:430px;
+background:#6ACE8B;
+margin:-210px 20px 420px 520px;
+-moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius:8px;
+border-radius: 8px;
+}
+*:focus {outline: none;}
+
+input[type=text] {
+position:relative;
+height:34px;
+width: 250px;
+text-decoration:none;
+-moz-border-radius: 5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+ outline:none;
+ font-family: 'Open Sans', sans-serif;
+ padding-left:5px;
+ border :1px solid #274A61;
+}
+::-webkit-input-placeholder {
+  color: #703E7F;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+:-moz-placeholder{
+  color: #703E7F !important;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  }
+input[type=text]:focus {
+-webkit-box-shadow:none;
+background:#EEEA38;
+color:#511E69;
+}
+
+.Name{
+margin:40px 30px 40px;
+}
+.Email{
+margin:0px 30px 40px;
+}
+.message{
+resize:none;
+margin:0px 30px 40px;
+width:400px;
+height:180px;
+font-family: 'Open Sans', sans-serif;
+padding-left:8px;
+padding-top:8px;
+font-size:15px;
+ outline:none;
+  border :1px solid #274A61;
+  -moz-border-radius: 8px;
+-khtml-border-radius: 8px;
+-webkit-border-radius:8px;
+border-radius: 8px;
+  
+}
+.message:focus{
+background:#EEEA38;
+color:#511E69;
+}
+.tri{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 57px 57px 0 0;
+border-color: #6ACE8B transparent transparent transparent;
+position:relative;
+top:0px;
+left:30px;
+}
+input[type=submit]{
+position:relative;
+width:200px;
+height:70px;
+background:#34495E;
+border:none;
+ color:#E7ED3D;
+ left:-10px;
+
+}
+.submit{
+position:relative;
+font-family: 'lobster_1.4regular';
+font-size:50px;
+cursor: pointer; cursor: hand;
+}
+input[type=submit]:hover{
+color:#75F7E5;
+}
+.face{
+width:100px;
+height:100px;
+background-image:url(../images/socialico/plane.png);
+background-position:100px 0px;
+position:relative;
+top:-80px;
+left:160px;
+margin:0px;
+padding:0px;
+}
+
