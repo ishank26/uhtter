@@ -12,15 +12,11 @@
 						<link rel="stylesheet" type="text/css" href="css/font/font.css" />
 						<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 					
-						<script src="scripts/wufoo.js"></script>     //wufu
-						<!--[if lt IE 10]>
-						<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-						<![endif]-->
-		 
 		 
 	</head>
 	<body>
-<div class="horz">
+<div id="nav">
+	<div class="logo"></div>
 	<div class="howto">
 		<a href="#"></a>
 		<p class="one">
@@ -30,6 +26,7 @@
 			Login
 		</p>
 	</div>
+	
 </div>
 <div class="info">
 	<p>
@@ -44,7 +41,7 @@
 		<form method="post" action="" id="feedback" data-validate="parsley">
 			<input type="text" name="Name" id="Name" class="Name" placeholder="Bruce Wayne" data-required="true" data-trigger="change" data-error-message="VVVMMMM! Jedi ,what's the name?"/><br>
 			<input type="text" class="Email" name="Email" id="Email" placeholder="darkknight@batmail.com" data-error-message="Not valid, use the force Jedi." data-type="email" data-required="true" data-trigger="change"/><br>
-			<textarea class="message" name="message" rows="20" cols="35" id="message" placeholder="It's not who we are underneath but what we do that define us." data-required="true" data-trigger="change" data-error-message="The Jedi must seek the answer.">
+			<textarea class="message" name="message" rows="20" cols="35" id="message" placeholder="It's not who you are underneath but what you do that defines you." data-required="true" data-trigger="change" data-error-message="The Jedi must seek the answer.">
 </textarea>
 			<div class="tri"></div><input type="submit" id="submit" class="submit" value="Dispatch ">
 		</form>

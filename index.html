@@ -11,11 +11,24 @@
 	    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		
 		<script src="js/grid/modernizr.custom.js"></script>
+		<script type="text/javascript">
+			
+			
+				$(document).ready(function(){ 
+			var	gridtster = $(".gridster > ul").gridster({
+					widget_margins: [4, 4], 
+					widget_base_dimensions: [160, 160],
+					min_cols: 6
+				}).data('gridster');
+			});
+         </script>
+
 
 	   </head>
 	   <body>
 
-<div class="horz">
+<div id="nav">
+	<div class="logo"></div>
 	<div class="howto">
 		<a href="#"></a>
 		<p class="one">
@@ -25,7 +38,7 @@
 			Login
 		</p>
 	</div>
-	<div class="logo"></div>
+	
 </div>
 <div class="container">
 	<div class="gridster">
@@ -38,7 +51,7 @@
 					awesome and by the way who the hell are we?
 				</h1>
 				<h2>
-					We are the new kid in town,aiming to connect people on the basis of intellectuality.
+					We are the new kid in town who wants, you to share the real aspect of you genuinely and sensiblely to bring people together and create expriences. 
 				</h2>
 				<div class="think">
 					<p>
@@ -58,12 +71,7 @@
 					Our mission
 				</h1>
 				<p>
-					We dont want your social updates.<br>
-					<br>
-					Why share something anonymously?Why give a damn, about someone's virtual liking?<br>
-					<br>
-					Uhtter provides you a platform to share your perception,ideas,works,questions ,success , mistakes and every other thing that you believe in, without worrying about the world.<br>
-					<br>
+					We dont want your social updates.</br> There is a lot of diffrenece between how you show yourself on web and who you really are.Reveal the real amazing you.Share anything that relates to imperfect the you.Share to present your awsomeness to the world and make it a cooler place.</br></br>Relate and connect better.</br>Express genuinely.</br>Express intellectually.</br></br>
 					<span>"Say anything,Everything."</span>
 				</p>
 			</li>
@@ -94,11 +102,12 @@
 					</p>
 				</div>
 			</li>
-			<li data-row="3" data-col="4" data-sizex="2" data-sizey="1" class="contact" href="feedback.html">
-				<div class="cnt"></div>
+			<li data-row="3" data-col="4" data-sizex="2" data-sizey="1" class="contact">
+			<a href="feedback.html">	<div class="cnt"></div>
 				<p>
 					Talk to us..
 				</p>
+			</a>
 			</li>
 			<li data-row="3" data-col="1" data-sizex="4" data-sizey="1" class="ourbelief">
 				<div class="belief">
@@ -106,10 +115,11 @@
 						Our belief
 					</h1>
 					<h3>
-						We believe every human has a lot more than his party social side, that other half does a lot amazing things.
+						We all are imperfect and thats how we relate to each other.
+						Dont care about this social make believe world.
 					</h3>
 					<h4>
-						And we want you to show the world this <span>AMAZESH!</span> side of yours.
+						And share freely the <span>AMAZESH!</span> side of yours.
 					</h4>
 					<div class="be"></div>
 				</div>
@@ -135,7 +145,7 @@
 					</ul>
 				</div>
 			</li>
-			<li data-row="5" data-col="4" data-sizex="1" data-sizey="1" class="uhtter" id="uhtter"></li>
+			<li data-row="5" data-col="4" data-sizex="1" data-sizey="1" class="uhtter" id="uhtter"><img src="images/uhtter.png" alt=""/></li>
 			<li data-row="5" data-col="5" data-sizex="3" data-sizey="1" class="crew">
 				<div class="title">
 					<h1>
@@ -145,7 +155,36 @@
 				<div class="down"></div>
 				</a>
 			</li>
-			<li data-row="6" data-col="1" data-sizex="2" data-sizey="3" class="ishank" id="team">
+			<li data-row="4" data-col="1" data-sizex="3" data-sizey="3" class="features">
+				<div class="thing" id="user">
+	<div class="photo">
+		<img src="images/user.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Share something named or anonymously.</p></div>
+</div>
+<div class="thing" id="pencil">
+	<div class="photo">
+		<img src="images/pencil.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Share anything thats related to you, be that your work, experience, views, failures, questions.Let it all out in a sensible way.</p></div>
+</div>
+<div class="thing" id="pin">
+	<div class="photo">
+		<img src="images/pin.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Maitain your own life's journal.These uhtters are only shared with the people you want ,be it your communities, friends or the people you follow.The uhtters can be accesed directly from your dashboard. </p></div>
+</div>
+
+<div class="thing" id="heart">
+	<div class="photo">
+		<img src="images/heart.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Support, 
+	encourage, suggest, like what you find interesting.We dont want your comments, we want your thoughts.</p></div>
+</div>
+
+			</li>
+			<li data-row="6" data-col="4" data-sizex="2" data-sizey="3" class="ishank" id="team">
 				<div class="pic"></div>
 				<div class="desig">
 					<h1>
@@ -155,11 +194,11 @@
 				</div>
 				<div class="content">
 					<p>
-						Geek and frontend developer.This curious character loves to know about the mysteries of quantum world and the grand design.A COD fan, a sci-fi addict ,and a rookieb stargazer who doesn't know where is going to end up.
+						Geek and frontend developer.This curious character loves to know about the mysteries of quantum world and the grand design.A COD fan, a sci-fi addict ,and a rookie stargazer who doesn't know where is going to end up.
 					</p>
 				</div>
 			</li>
-			<li data-row="6" data-col="1" data-sizex="2" data-sizey="3" class="yogesh" id="team2">
+			<li data-row="6" data-col="6" data-sizex="2" data-sizey="3" class="yogesh" id="team">
 				<div class="pic"></div>
 				<div class="desig">
 					<h1>
@@ -184,41 +223,52 @@
 </script>
 <script type="text/javascript" src="assets/jquery.gridster.js" charset="utf-8"></script><script type="text/javascript">
 			
-			var gridster;
-				 $(function() {
-				gridtster = $(".gridster > ul").gridster({
+			
+				$(document).ready(function(){ 
+			var	gridtster = $(".gridster > ul").gridster({
 					widget_margins: [4, 4], 
 					widget_base_dimensions: [160, 160],
 					min_cols: 6
 				}).data('gridster');
 			});
 </script>
-<script type="text/javascript">
-	 var jump=function(e)
-{
-       //prevent the "normal" behaviour which would be a "hard" jump
-       e.preventDefault();
-       //Get the target
-       var target = $(this).attr("href");
-       //perform animated scrolling
-       $('html,body').animate(
-       {
-               //get top-position of target-element and set it as scroll target
-               scrollTop: $(target).offset().top
-       //scrolldelay: 2 seconds
-       },800,function()
-       {
-               //attach the hash (#jumptarget) to the pageurl
-               location.hash = target;
-       });
-
-}
-
-$(document).ready(function()
+   <script>
+	 var jump=function(e) { e.preventDefault(); var target = $(this).attr("href"); $('html,body').animate( { scrollTop: $(target).offset().top },800,function() { location.hash = target; }); }
+	 $(document).ready(function()
 {
        $('a[href*=#]').bind("click", jump);
        return false;
 });
    </script>
+
+         <script type="text/javascript">
+$(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('#nav');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+</script>
 </body>
 </html>
