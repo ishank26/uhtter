@@ -4,44 +4,44 @@
 		<title>About us</title>
 			<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2.0"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.2"> 
 		<link rel="stylesheet" type="text/css" href="css/res_about.css"/>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/font/font.css" />
 		<script type="text/javascript" src="assets/jquery.js"></script>
+		<script type="text/javascript" src="js/parsley.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/respval.css" /> 
 			<script>
 	$(document).ready(function(){
     $('section[data-type="background"]').each(function(){
-        var $bgobj = $(this); // assigning the object
+        var $bgobj = $(this); 
     
         $(window).scroll(function() {
             var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
             
-            // Put together our final background position
+            
             var coords = yPos + 'px';
 
-            // Move the background
+            
             $bgobj.css({ backgroundPosition: coords });
         }); 
     });    
-}); 
-</script>
-</script>
+});
+    	
+  $(document).ready(function(){$( '.message-holder' ).parsley('validate');});
+	</script>
+
 	</head>
 	<body>
-		<div id="header">
-	<div class="howto">
-		<a href="#"></a>
-		<p class="one">
-			How To
-		</p><a href="#"></a>
-		<p class="two">
-			Login
-		</p>
-	</div>
-	<div class="logo"></div>
-</div>
-<section class="intro" data-type="background" data-speed="10"></section>
+		
+<section class="intro" data-type="background" data-speed="10">
+	    <div class="logobox">
+		<div class="big"></div>
+		<div class="words"><p>Say anything.Everything</p></div>
+		</div>
+
+		
+</section>
 <div class="container" >
 <section class="desc" data-type="background" data-speed="10">
 	<p>
@@ -56,6 +56,7 @@
 		</p>
 	</div>
 </div>
+
 <div class="missioninfo">
 	
 		<div class="row">
@@ -90,6 +91,7 @@
 			<div class="icon"><img src="images/resp_about/Light-Bulb.png" alt=""/></div>
 		</div>
 	</div>
+	
 
 <div class="crew">
 	<h2>Our Crew.</h2>
@@ -103,10 +105,11 @@
 				</div>
 				<div class="content">
 					<p>
-						Geek and frontend developer.This curious character loves to know about the mysteries of quantum world and the grand design.A COD fan, a sci-fi addict ,and a rookie stargazer who doesn't know where is going to end up.
+						Geek and frontend developer.This curious character loves to know about the mysteries of quantum world and the grand design.A COD fan, a sci-fi addict ,and a rookie stargazer who doesn't know where he is going to end up.
 					</p>
 				</div>
 			</div>
+			
 		<div class="team" id="yogesh">
 		<div class="pic"></div>
 				<div class="desig">
@@ -122,27 +125,55 @@
 				</div>
 			</div>
   </div>   
+  <div class="addons">
+
+				<div class="thing" id="user">
+	     <div class="photo">
+		<img src="images/user.png" alt="">
+	   </div>
+	   <div class="para"><div class="tri"></div><p>Share something named or anonymously.</p></div>
+       </div>
+      <div class="thing" id="pencil">
+	<div class="photo">
+		<img src="images/pencil.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Share anything thats related to you, be that your work, experience, views, failures, questions.Let it all out in a sensible way.</p></div>
+      </div>
+      <div class="thing" id="pin">
+	<div class="photo">
+		<img src="images/pin.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Maitain your own life's journal.Customize and share it only with selected people,be it your communities, friends or the people you follow. </p></div>
+    </div>
+
+   <div class="thing" id="heart">
+	<div class="photo">
+		<img src="images/heart.png" alt="">
+	</div>
+	<div class="para"><div class="tri"></div><p>Support, 
+	encourage, suggest, pledge, like what you find interesting.We dont want your comments, we want your thoughts.</p></div>
+ </div>
+</div>
   <div class="contacthead"><h1>Contact Us.</h1></div>
 	<div class="contact">
 		
-		<form method="post" action="" id="feedback" data-validate="parsley">
+		<form method="post" action="" id="contact" data-validate="parsley">
 			<div class="form">
-				<input type="text" name="Name" id="Name" class="Name" placeholder="Bruce Wayne" data-required="true" data-trigger="change" data-error-message="VVVMMMM! Jedi ,what's the name?"><br>
+				<input type="text" name="Name" id="Name" class="Name" placeholder="Bruce Wayne" data-required="true" data-trigger="change" data-error-message="The name is Batman"><br>
 			</div>
 			<div class="form">
-				<input type="text" class="Email" name="Email" id="Email" placeholder="darkknight@batmail.com" data-error-message="Not valid, use the force Jedi." data-type="email" data-required="true" data-trigger="change"><br>
+				<input type="text" class="Email" name="Email" id="Email" placeholder="darkknight@batmail.com" data-error-message="Invalid Email, self destruct sequence initiated." data-type="email" type="email"data-required="true" data-trigger="change"><br>
 
 			</div>
 			<div class="form">
 				<input type="text" class="Company" name="Company" id="Company" placeholder="Wayne Industries">
 			</div>
 			<div class="form">
-				<input type="text" class="Website" name="Website" id="Website" placeholder="IamBatman.com">
+				<input type="text" class="Website" name="Website" id="Website" placeholder="IamBatman.com" data-type="url">
 			</div>
 			
 			<div class="form message-holder">
-				<textarea class="message" name="message" id="message" placeholder="It's not who you are underneath but what you do that defines you." data-required="true" data-trigger="change" data-error-message="The Jedi must seek the answer.">
-                </textarea>
+				<textarea rows="30" cols="50" class="message" name="message" id="message" placeholder="It's not who I am underneath ,but what I do that defines me." data-required="true"data-error-message="Master Wayne, please write the message."></textarea>
 			
 		</div>
 			
@@ -152,13 +183,9 @@
 			</div>
 		</form>
 	</div>
-
-
-			
-	    
-
 </div>
-		
+		<script type="text/javascript" src="assets/jquery.js"></script>
+						
 	</body>
 
 </html>
