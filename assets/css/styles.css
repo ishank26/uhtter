@@ -11,4 +11,8 @@ width:auto;
 
 .gridster .gs_w {
   cursor: pointer;
+
+ }
+ .gridster{
+ 	width:auto;
  }

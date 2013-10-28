@@ -8,26 +8,26 @@ input.parsley-error {
 color:#FFF!important;
 background-color:#53E09A!important;
 border:1px solid #EED3D7!important;
- 
 list-style-type:none; 
 }
-textarea.parsley-error{
-  background-color:#53E09A!important;
+textarea.parsley-error {
+background-color:#53E09A!important;
 border:1px solid #EED3D7!important;
 color:#FFF!important;
-  list-style: none;
-                list-style-type:none; 
+list-style:none;
+list-style-type:none;
 }
-  ul.parsley-error-list
-            {
-               
+
+
+ul.parsley-error-list {
 font-family:pt_sans_captionregular;
 color:#fff;
-                list-style-type:none; 
-            }
+list-style-type:none;
+}
+
+
 ul .parsley-error-list li {
 display:block;
-
 font-family:pt_sans_captionregular;
 color:#fff;
 list-style-type:none;
