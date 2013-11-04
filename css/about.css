@@ -280,10 +280,10 @@ top:48px;
  background-image:url(../images/stars1.jpg) ;
 background-position: 0px 652px;
 background-repeat: repeat-y;
--webkit-animation: play 3s linear infinite;
--moz-animation: play 3s linear infinite;
--o-animation: play 3s linear infinite;
-animation: play 3s linear infinite;
+-webkit-animation: play 1.6s linear infinite;
+-moz-animation: play 1.6s linear infinite;
+-o-animation: play 1.6s linear infinite;
+animation: play 1.6s linear infinite;
 }
 @-webkit-keyframes play{
    from {

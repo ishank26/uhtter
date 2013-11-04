@@ -7,7 +7,7 @@ padding: 0;
 
 html, body {
     height:100%;
-	background:#395875;
+	background:#3F5F51;
 	width: 100%;
 
 }
@@ -55,5 +55,6 @@ background: #ff9900;
 .deedpost{
   width:90%;
   background: red;
-  height:10%;
+  height:30%;
+  margin: 10px 5px;
 }
