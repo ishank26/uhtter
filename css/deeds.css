@@ -1,0 +1,59 @@
+
+@charset "UTF-8";
+*{
+margin: 0;
+padding: 0;
+}
+
+html, body {
+    height:100%;
+	background:#395875;
+	width: 100%;
+
+}
+
+#container{
+  position:absolute;
+  top:100px;
+  width:100%;
+  height: 100%;
+  background: red;
+  padding: 50px 10px;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.content{
+ width:100%;
+ height: 100%;
+ background: green;
+ padding:5px;
+}
+.user{
+  position: relative;
+  width:50%;
+  background: blue;
+  height: 100%;
+  float: left;
+}
+.close,.friends{
+  float: right;
+  width:50%;
+  position: relative;
+  right: 0px;
+  height: 100%;
+ top: 0px;
+}
+.friends{
+background: #ff9900;
+}
+.close{
+  background: #ff7878;
+}
+.deedpost{
+  width:90%;
+  background: red;
+  height:10%;
+}
