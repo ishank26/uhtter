@@ -11,8 +11,12 @@
 						<link rel="stylesheet" type="text/css" href="css/feedback_parsley.css" />
 						<link rel="stylesheet" type="text/css" href="css/font/font.css" />
 						<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+						<script type="text/javascript" src="js/parsley.js"></script>
+							<script type="text/javascript" src="js/jquery.js"></script>
+						<script type="text/javascript">
+							$(document).ready(function(){$( '#feedback' ).parsley('validate');});
 					
-		 
+		                  </script>
 	</head>
 	<body>
 <div id="nav">
@@ -47,7 +51,7 @@
 		<div class="face"></div>
 	</div>
 </div>
-	<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
 						<script type="text/javascript" src="js/parsley.js"></script>
 </body>
 </html>	
