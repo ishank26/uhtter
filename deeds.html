@@ -166,19 +166,12 @@
 </div>
 <script type="text/javascript" src="assets/jquery.js"></script>
 <script>
-	   $(document).ready(function() {
-
-      $("#downslider").on('click',function(){
-      	$(".close").animate({
-      		'overflow': 'visible'},
-      		800,'linear');
-      	});
-      console.log('hello');
-   
-      });
+	 
+      $(document).ready(function(){
+     $('.close,.friends').height($('.user').height()/2);
+      
+   });
 </script>
-
-
 
 
  </body>
