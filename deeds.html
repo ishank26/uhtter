@@ -6,7 +6,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.2"> 
         <link rel="stylesheet" type="text/css" href="css/deeds.css" />
+       	<link rel="stylesheet" type="text/css" href="css/font/font.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css" />
+
+        
 		<script type="text/javascript" src="assets/jquery.js"></script>
+		 <script src="js/jquery.mousewheel.js"></script>
+      <script src="js/perfect-scrollbar.js"></script>
+		 <script>
+      jQuery(document).ready(function ($) {
+        "use strict";
+        $('#scroll').perfectScrollbar();
+      });
+    </script>
 	</head>
 
 	<body>
@@ -15,14 +28,18 @@
 		<div class="user">
 			<div class="deedpost">
 				<div class="postsomething">
-					<div class="postimg"></div>
+					<div class="postimg">
+						<div class="textdeed">
+							<img src="images/deeds/postdeed.png" alt="">
+						</div>
+					</div>
 					<form action="" id="postbox">
 						<div class="tripost"></div>
-						<textarea class="postmessage" name="postmessage" rows="3" cols="55" id="postmessage" placeholder="Been there,done that"></textarea>
+						<textarea class="postmessage" name="postmessage" rows="3" cols="65" placeholder="Been there,done that"></textarea>
 					</form>
 				</div>
 			</div>
-			<div class="posted">
+			<div class="posted" >
 				<div class="date">
 					<p>
 						2-2-2022
@@ -33,13 +50,13 @@
 						#lorem #ipsum #dolor
 					</p>
 				</div>
-				<div class="postedinfo">
+				<div  class="postedinfo">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 					</p>
 				</div>
 			</div>
-			<div class="posted">
+			<div   class="posted">
 				<div class="date">
 					<p>
 						2-2-2022
@@ -50,7 +67,7 @@
 						#lorem #ipsum #dolor
 					</p>
 				</div>
-				<div class="postedinfo">
+				<div id="scroll" class="postedinfo">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 					</p>
@@ -169,8 +186,10 @@
 	 
       $(document).ready(function(){
      $('.close,.friends').height($('.user').height()/2);
-      
+
+     
    });
+
 </script>
 
 

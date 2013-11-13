@@ -23,7 +23,7 @@ padding:10px 15px;
 .content {
 position:relative;
 min-height:100%;
-background:#3AC75D;
+background:#fff;
 overflow-y:hidden;
 padding:15px 5px;
 }
@@ -35,7 +35,6 @@ padding:15px 5px;
 .user {
 position:relative;
 width:50%;
-background:blue;
 min-height:100%;
 float:left;
 overflow:hidden;
@@ -46,7 +45,6 @@ display:block;
 
 .deedpost {
 width:90%;
-background:red;
 height:150px;
 margin:10px 5px;
 }
@@ -55,34 +53,41 @@ margin:10px 5px;
 width:70px;
 height:70px;
 position:relative;
-left:10px;
-top:10px;
+left:20px;
+top:20px;
 background:#F90;
 }
+.textdeed{
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left:10px;
 
-#postbox textarea {
-position:relative;
-margin-top:-40px;
-margin-left:120px;
 }
+
 
 .tripost {
 width:0;
 height:0;
 border-color:transparent #007bff transparent transparent;
 border-style:solid;
-border-width:0 48px 32px 0;
+border-width:0 28px 18px 0;
+position: relative;
+left:82px;
+top:-30px;
 }
 /*user posted deeds*/
 .posted {
 margin-top:20px;
 width:90%;
 height:100px;
-background:red;
+
 position:relative;
 left:10px;
 overflow:hidden;
 padding:15px 10px;
+ border-top :3px solid #39e5a3;
+ border-bottom: 3px solid #39e5a3;
 }
 
 .date,.tags {
@@ -92,6 +97,8 @@ height:30px;
 line-height:30px;
 background:green;
 font-size:17px;
+top: -10px;
+
 }
 
 .posted .date {
@@ -110,17 +117,25 @@ word-spacing:5px;
 
 .posted .postedinfo {
 background:green;
-width:auto;
-height:auto;
-position:absolute;
+width: 100%;
+height: 100%;
 float:left;
-top:50px;
+top:5px;
+left:-10px;
 padding:5px 10px;
+overflow: hidden;
+
+
+
 }
 
-.postedinfo p {
+.postedinfo p{
 font-size:1.2em;
+overflow:ellipsis;
 }
+
+
+
 /*close posted deeds*/
 .close{
   position: relative;
@@ -134,7 +149,21 @@ font-size:1.2em;
   top: 0px;
 }
 
-
+.postsomething textarea{
+  position: relative;
+  top:-50px;
+  resize: none;
+  left:110px;
+  -moz-border-radius: 0px 5px 5px 5px;
+-khtml-border-radius: 0px 5px 5px 5px;
+-webkit-border-radius:0px 5px 5px 5px;
+border-radius: 0px 5px 5px 5px;
+width: 80%;
+}
+.postmessage{
+  outline: none;
+   border :1px solid #ff9900;
+}
 .close .closeposts {
 width:90%;
 height:200px;
@@ -147,6 +176,7 @@ display: block;
 padding:5px 10px;
 }
 
+
 .close .closepic {
 position:relative;
 width:80px;
@@ -158,16 +188,6 @@ background:#0F1F13;
 border-radius:50%;
 z-index:3;
 }
-
-.closebox {
-position:relative;
-width:95%;
-height:auto;
-background:#fff;
-overflow:hidden;
-margin:25px 15px;
-}
-
 .close .closeposted {
 position:relative;
 top:-40px;
@@ -178,7 +198,20 @@ left:30px;
 background:green;
 overflow:hidden;
 padding:10px 5px;
+
 }
+.closebox {
+position:relative;
+width:95%;
+
+background:#fff;
+min-height: 100%;
+overflow: hidden;
+margin:25px 15px;
+
+}
+
+
 
 #downslider {
 width:100px;
