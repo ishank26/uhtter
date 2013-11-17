@@ -64,7 +64,10 @@ background:#F90;
   left:10px;
 
 }
+.postmessage{
+  padding: 5px;
 
+}
 
 .tripost {
 width:0;
@@ -78,26 +81,33 @@ top:-30px;
 }
 /*user posted deeds*/
 .posted {
-margin-top:20px;
-width:90%;
+margin-top:0px;
+width:100%;
 height:100px;
-
+margin-top:5px;
 position:relative;
 left:10px;
 overflow:hidden;
 padding:15px 10px;
- border-top :3px solid #39e5a3;
- border-bottom: 3px solid #39e5a3;
-}
+ border-top :1px solid #39e5a3;
 
+}
+.mypic{
+  position: relative;
+   width: 80px;
+   height: 80px;
+   background:#0F1F13;
+}
 .date,.tags {
 float:left;
+width: auto;
 position:relative;
 height:30px;
 line-height:30px;
 background:green;
 font-size:17px;
-top: -10px;
+top: -90px;
+left:100px;
 
 }
 
@@ -115,26 +125,20 @@ margin-left:10px;
 word-spacing:5px;
 }
 
-.posted .postedinfo {
-background:green;
-width: 100%;
-height: 100%;
-float:left;
-top:5px;
-left:-10px;
-padding:5px 10px;
-overflow: hidden;
-
-
-
+.postedinfo{
+  position: relative;
+  background: red;
+  top: -80px;
+  width: 80%;
+  left:100px;
+  min-height: 100%;
+  overflow: hidden;
+  padding: 10px;
+  
 }
-
 .postedinfo p{
-font-size:1.2em;
-overflow:ellipsis;
+  float: left;
 }
-
-
 
 /*close posted deeds*/
 .close{
