@@ -98,12 +98,12 @@ border-radius: 5px;
  border :1px solid #274A61;
 }
 ::-webkit-input-placeholder {
-  color: #703E7F;
+  color: #BDC7C8;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
 }
 :-moz-placeholder{
-  color: #703E7F !important;
+  color: #BDC7C8 !important;
   font-size: 15px;
   font-family: 'Open Sans', sans-serif;
   }

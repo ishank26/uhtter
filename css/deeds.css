@@ -134,8 +134,8 @@ word-spacing:5px;
   min-height: 100%;
   overflow: hidden;
   padding: 10px;
+  }
   
-}
 .postedinfo p{
   float: left;
 }
