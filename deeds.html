@@ -4,7 +4,7 @@
 		<title>Done Something.</title>
 			<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.2"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.1"> 
         <link rel="stylesheet" type="text/css" href="css/deeds.css" />
        	<link rel="stylesheet" type="text/css" href="css/font/font.css" />
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -17,7 +17,7 @@
 		 <script>
       jQuery(document).ready(function ($) {
         "use strict";
-        $('#scroll').perfectScrollbar();
+        $('.postedinfopara').perfectScrollbar({wheelSpeed:600});
       });
     </script>
 	</head>
@@ -39,7 +39,7 @@
 					</form>
 				</div>
 			</div>
-			<div class="posted" >
+			<div class="posted" id="scroll" >
 				<div class="mypic"></div>
 				<div class="date">
 					<p>
@@ -51,7 +51,7 @@
 						#lorem #ipsum #dolor
 					</p>
 				</div>
-				<div  class="postedinfo" id="scroll" >
+				<div  class="postedinfo"  >
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 					</p>
@@ -70,9 +70,11 @@
 					</p>
 				</div>
 				<div  class="postedinfo">
+					<div class="postedinfopara">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 					</p>
+					</div>
 				</div>
 			</div>
 			<div class="posted">
@@ -88,9 +90,10 @@
 					</p>
 				</div>
 				<div class="postedinfo">
+					<div class="postedinfopara">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-					</p>
+					</p></div>
 				</div>
 			</div>
 			<div class="posted">
@@ -105,10 +108,10 @@
 						#lorem #ipsum #dolor
 					</p>
 				</div>
-				<div class="postedinfo">
+				<div class="postedinfo"><div class="postedinfopara">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-					</p>
+					</p></div>
 				</div>
 			</div>
 			<div class="posted">
@@ -123,10 +126,10 @@
 						#lorem #ipsum #dolor
 					</p>
 				</div>
-				<div class="postedinfo">
+				<div class="postedinfo"><div class="postedinfopara">
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-					</p>
+					</p></div>
 				</div>
 			</div>
 		</div>

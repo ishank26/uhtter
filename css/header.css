@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+margin: 0;
+padding: 0;
+}
+html,body{
+background:#2c3e50;
+height: 100%;
+cursor: pointer;
+width: 100%;
+}
+.header{
+	position: absolute;
+	top: 0px;
+   height: 60px;
+   width:100%;
+   background: #12e594;
+   display: inline-block;
+}
+.logo{
+	position: relative;
+	width:140px;
+	height: 100%;
+	float: left;
+	left:30px;
+    background: #ff9900;
+}
+ul{
+	position: relative;
+	display: inline-block;
+	list-style: none;
+}
+.nav{margin-left: 90px;}
+.nav li{
+	position: relative;
+	background: blue;
+    float: left;
+    display: inline-block;
+    width:auto;
+    height: 60px;
+   }
+.nav li a{
+	position: relative;
+	width: 80px;
+	height: 100%;
+	display:block;
+	background: green;
+	float: left;
+	margin-left: 5px;
+
+}
+.half{
+	position: relative;
+	float: right;
+	display: inline;
+	width:60%;
+	height:100%;
+	background: #ff9900;
+	}
+.otherhalf li{
+     position: relative;
+     float: left;
+     display: inline-block;
+     width:auto;
+     height: 60px;
+}
+.otherhalf li a{
+	position: relative;
+	width: 80px;
+	height: 100%;
+	display:block;
+	background: green;
+	float: left;
+	margin-left: 5px;
+}
+.searchbox{
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 40%;
+	height: 60px;
+	background: #000;
+	top:-65px;
+	padding: 10px 5px;
+}
+.box{
+	position: relative;
+	display: inline;
+	position: relative;
+	width: 70%;
+	height: 40px;
+	top:-15px;
+
+}
+.searchsubmit{
+	display: inline;
+	position: relative;
+	width:40px;
+	top: -1px;
+	height: 42px;
+	left: -5px;
+
+}
