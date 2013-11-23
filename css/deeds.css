@@ -127,17 +127,24 @@ word-spacing:5px;
 
 .postedinfo{
   position: relative;
-  background: red;
+ 
   top: -80px;
   width: 80%;
   left:100px;
-  min-height: 100%;
-  overflow: hidden;
+  min-height: 80%;
+
   padding: 10px;
   }
-  
-.postedinfo p{
+ .postedinfopara{
+    overflow: hidden;
+      position: relative;
+      background: red;
+      width:80%;
+      height: 80%;
+ } 
+.postedinfopara p{
   float: left;
+  overflow: hidden;
 }
 
 /*close posted deeds*/
