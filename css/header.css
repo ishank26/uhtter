@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 }
 html,body{
-background:#2c3e50;
+background:#F7F6F1;
 height: 100%;
 cursor: pointer;
 width: 100%;
@@ -14,7 +14,7 @@ width: 100%;
 	top: 0px;
    height: 60px;
    width:100%;
-   background: #41ab6b;
+   background: #32B38C;
    display: inline-block;
 }
 .logo{
@@ -23,7 +23,7 @@ width: 100%;
 	height: 100%;
 	float: left;
 	left:30px;
-    background: #ff9900;
+     background-image:url(../images/head/logo.png);
 }
 ul{
 	position: relative;
@@ -33,7 +33,7 @@ ul{
 .nav{margin-left: 90px;}
 .nav li{
 	position: relative;
-	background: blue;
+	
     float: left;
     display: inline-block;
     width:auto;
@@ -41,21 +41,33 @@ ul{
    }
 .nav li a{
 	position: relative;
-	width: 80px;
+	width: 60px;
 	height: 100%;
 	display:block;
-	background: green;
+
 	float: left;
 	margin-left: 5px;
-
 }
+.dashboard{
+ background-image:url(../images/head/dashboard.png);
+ background-repeat: no-repeat;
+}
+.messages{
+ background-image:url(../images/head/messages.png);
+ background-repeat: no-repeat;
+}
+.logout{
+ background-image:url(../images/head/logout.png);
+ background-repeat: no-repeat;
+}
+
 .half{
 	position: relative;
 	float: right;
 	display: inline;
 	width:60%;
 	height:100%;
-	background: #ff9900;
+	background: #625E5D;
 	}
 .otherhalf li{
      position: relative;
@@ -66,39 +78,95 @@ ul{
 }
 .otherhalf li a{
 	position: relative;
-	width: 80px;
+	width: auto;
 	height: 100%;
 	display:block;
-	background: green;
+	color: #fff;
+ font-family: 'pt_sansbold';
+
 	float: left;
-	margin-left: 5px;
+	top: 20px;
+	font-size: 15px;
+	margin-left: 15px;
+	text-decoration: none;
 }
 .searchbox{
-	margin: 0 auto;
 	position: relative;
 	display: inline-block;
-	float: right;
+	float: left;
 	width: 40%;
 	height: 60px;
-	background: #000;
 	top:-65px;
 	padding: 10px 5px;
+	margin-left: 37%;
 }
 .box{
 	position: relative;
 	display: inline;
 	position: relative;
-	width: 70%;
+	width: 80%;
 	height: 40px;
-	top:-15px;
-
-}
+	border: none;
+	padding: 10px;
+	outline: none;
+	color:#32B38C;
+	 font-family: 'candelabook_italic';
+	 font-size :20px;
+     }
+     ::-webkit-input-placeholder{
+     	color:#BAC6C1;
+font-family: 'open_sans_condensedbold';
+     }
+     :-moz-input-placeholder{
+     	color:#BAC6C1;
+     	font-family: 'open_sans_condensedbold';
+     }
 .searchsubmit{
-	display: inline;
+	display: inline-block;
+	float: right;
 	position: relative;
 	width:40px;
-	top: -1px;
-	height: 42px;
-	left: -5px;
+	height: 40px;
+	left:-24px;
+	background-image:url(../images/head/search.png);
+	border: none;
+	outline: none;
 
 }
+.profilepic{
+	float: right;
+	position: relative;
+	display: inline-block;
+	width: 185px;
+	background: red;
+	height: 100%;
+	top:-65px;
+}
+.pic{
+	position: relative;
+	width:60px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background: greenyellow;
+}
+.name{
+ position: relative;
+	width:110px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	background: greenyellow;
+	margin-left: 10px;
+}
+.name p {
+	position: relative;
+white-space:nowrap;
+width:100%;
+overflow:hidden;
+text-overflow:ellipsis;
+text-align: center;
+font-size: 18px;
+top: 20px;
+}
+
