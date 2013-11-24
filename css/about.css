@@ -651,3 +651,44 @@ line-height:1.3em;
 text-align:center;
 color:#ff9900;
 }
+
+@media screen and (max-width: 1080px) and (min-width:901px){
+   
+.container{
+max-width:auto;
+height:auto;
+position: relative;
+padding:130px 0px  130px 130px;
+}
+
+}
+
+@media screen and (max-width: 1920px) and (min-width:1601px){
+.container{
+max-width:auto;
+height:auto;
+position: relative;
+padding:130px 0px  130px 800px;
+}
+
+
+@media screen and (max-width: 1600px) and (min-width:1367px){
+.container{
+max-width:auto;
+height:auto;
+position: relative;
+padding:130px 0px  130px 140px;
+}
+}
+@media screen and (max-width: 1366px) and (min-width:1050px){
+.container{
+max-width:auto;
+height:auto;
+position: relative;
+padding:130px 0px  130px 130px;
+}
+
+
+}
+
+}
