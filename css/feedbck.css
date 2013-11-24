@@ -29,6 +29,9 @@ margin-top: -50px;
 margin-left: -20px;
 
 }
+a {
+  text-decoration: none;
+}
 .howto{
 position:relative;
 float:right;
