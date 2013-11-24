@@ -4,26 +4,24 @@ margin: 0;
 padding: 0;
 }
 html,body{
-background:#946AB2;
+background:#2c3e50;
 height: 100%;
 cursor: pointer;
+width: 100%;
 }
-.intro{
+ #intro{
    width:100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-   -ms-box-sizing: border-box;
-   -o-box-sizing: border-box;
-    box-sizing: border-box;
-	background:url(../images/soc.jpg) 0 repeat fixed;
+   background:url('../images/book.jpg') 0 no-repeat fixed;
+   background-size: cover;
 	height:100%;
-	position:relative ;
+	position:relative;
 	margin: 0 auto;
+	
   }
 .big{
 	position: relative;
 	background-image:url(../images/big.png);
-	background-size: cover;
+	background-size: 100%;
 	width:600px;
 	height: 600px;
 	top:-4%;
@@ -102,7 +100,7 @@ height: auto;
     -ms-box-sizing: border-box;
      -o-box-sizing: border-box;
         box-sizing: border-box;
-
+margin-bottom: 20px;
 }
 .desc{
    
@@ -182,7 +180,7 @@ height: auto;
 .row {
 max-width:300px;
 height:100%;
-background:#2ecc71;
+background:#D3F165;
 display:inline-block;
 overflow:hidden;
 margin-bottom:20px;
@@ -209,12 +207,12 @@ box-shadow:0 0 1.5em #000;
 text-align: center;
 	font-size: 2em
 	font-family: 'open_sansbold';
-	color: #34495e;
+	color: #2F704B;
 }
 .row p{
 	font-size: 1.1em;
 	font-family: 'open_sans_condensedbold';
-	color:#ecf0f1;
+	color:#46295C;
 	margin: 10px;
 }
 .row .icon{
@@ -358,6 +356,7 @@ height: auto;
 input[type=text] {
 height:34px;
 width:90%;
+color: #5BB182;
 background: #2A1832;
 text-decoration:none;
 -moz-border-radius: 5px;
@@ -392,6 +391,7 @@ font-family: 'Open Sans', sans-serif;
 padding:5px 10px;
 font-size:1.1em;
  outline:none;
+ color: #5BB182;
  border :1px solid #74488A;
 -moz-border-radius: 8px;
 -khtml-border-radius: 8px;
@@ -486,13 +486,22 @@ position: relative;
 	margin-top: 10px;
 
 }
-
+#rohit{
+	margin-top: 10px;
+}
 .pic{
 width:150px;
 height:150px;
 margin:20px 80px;  
-background:#ff9900;
-
+}
+#ishank .pic{
+background-image:url(../images/avatars/ishank.jpg) ;
+}
+#rohit .pic{
+  background-image:url(../images/avatars/rohit.jpg) ;
+}
+#yogesh .pic{
+  background-image:url(../images/avatars/yogi.jpg) ;
 }
 .desig h1{
 line-height:30px;
@@ -515,7 +524,7 @@ padding: 10px;
 .content p{
 font-size:1em;
 font-family: 'pt_sans_captionregular';
-align:center;
+ text-align:center;
 line-height:1.3em;
 }
 
@@ -525,8 +534,22 @@ input[type=submit]:active {
 	top:5px;
 
 }
+#footer{
+	position: absolute;
+	bottom: -30px;
+    width: 90%;
+    -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+}
+#footer p{
+	line-height: auto;
 
-
+text-align:center;
+color:#ff9900;
+}
 
 
 
@@ -572,6 +595,22 @@ input[type=submit]:active {
 	.addons{
 		width:100%;
 	}
+}
+#footer{
+	position: absolute;
+	bottom: -30px;
+    width: 90%;
+    -webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+-ms-box-sizing:border-box;
+-o-box-sizing:border-box;
+box-sizing:border-box;
+}
+#footer p{
+	line-height: auto;
+
+text-align:center;
+color:#fff;
 }
 
 
@@ -655,23 +694,55 @@ input[type=submit]:active {
 }
 
 @media screen and (max-width: 480px){
+  html,body{
+
+
+  }
+ #intro{
+ 	background:url('../images/book480.jpg') 0 no-repeat fixed;
+   background-size: cover;
+   height: 100%;
+  	width: 480px;
+  	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+     box-sizing: border-box;
+  }  
+
   .big{
 		width:500px;
 		height: 500px;
-		margin-left:-8%;
-	}
-	.words{
-		margin-top: -25%;
-		margin-left: 12%;
-	}
-	.words p{
-		font-size: 3em;
-	}
-	.form {
-		width:80%;
-		margin-left: -4%;
+		margin-left:-28%;
 	}
 
+
+	.words{
+		margin-top: -25%;
+		margin-left: 7%;
+	}
+	.words p{
+		font-size: 2.5em;
+	}
+   
+	.contact,.desc,.addons,.mission,.crew,.missioninfo,.contacthead{
+		width: 480px;
+		margin: 0 auto;
+		-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+         box-sizing: border-box;
+
+	}
+	.row{
+		margin-left:-50%;
+	}
+	.form {
+		width:70%;
+		margin-left: -8%;
+	}
+ 
 	.message-holder textarea{
 		height:300px;
 	}
@@ -683,7 +754,7 @@ input[type=submit]:active {
 		margin-left: -10%;
      }
      .addons{
-     	padding-left: 30px;
+     	padding-left: 130px;
      }
     .contact {
         padding:10%;
@@ -692,14 +763,12 @@ input[type=submit]:active {
 
 	.message-holder{width: 93%;}
 	.team{
-		margin-left:10%;
+		margin-left:-8%;
 	}
-	.row{
-		margin-left:2%;
-	}
+	
 
 	.desc { 
-     padding-left: 5%;
+     padding-left: 18%;
      	
      }
 	
