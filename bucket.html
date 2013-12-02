@@ -16,13 +16,27 @@
 						<script type="text/javascript"src="jquery.endless-scroll.js"></script>
 						<script type="text/javascript" src="js/masonry.pkgd.min"></script>
 						<script>
-                              $( window ).load( function()
+$( window ).load( function()
 {
-    $( '#listbox' ).masonry( { itemSelector: '.item' } );
-});  
+    var columns    = 3,
+        setColumns = function() { columns = $( window ).width() > 640 ? 3 : $( window ).width() > 320 ? 2 : 1; };
+ 
+    setColumns();
+    $( window ).resize( setColumns );
+ 
+    $( '#listbox' ).masonry(
+    {
+        itemSelector: '.item',
+        columnWidth:  function( containerWidth ) { return containerWidth / columns; }
+    });
+});
+
                           
                         </script>
-                        <!--FIX THIS-->
+
+
+
+                       <!--FIX THIS-->
                         <script type="text/javascript">
                         $("#listbox").endlessScroll({
   fireOnce: false,
@@ -42,9 +56,48 @@
 		<div id="container">
 			<div class="userlist">
 				<div id="listbox">
+					<div class="item w">
+						
+					</div>
+					<div class="item1 w">g</div>
+					<div class="item h">
+						<div class="add"></div>
+						<div class="do"></div>
+						<div class="say">
+						
+						<div class="beta"></div>
+						<div class="sopanel"></div>
+						
+						</div>
+					</div>
+					<div class="item h">g</div>
+						<div class="item">g</div>
+					<div class="item1">g</div>
+					
+					<div class="item">
+						<div class="add"></div>
+						<div class="do"></div>
+						<div class="say">
+						
+						<div class="beta"></div>
+						<div class="sopanel"></div>
+						
+						</div>
+					</div>
+					<div class="item1 h"></div>
+					<div class="item1 h">
+							<div class="add"></div>
+						<div class="do"></div>
+						<div class="say">
+						
+						<div class="beta"></div>
+						<div class="sopanel"></div>
+						
+						</div>
+					</div>
 					<div class="item">d</div>
+					<div class="item1 w">g</div>
 					<div class="item w">g</div>
-					<div class="item">g</div>
 					<div class="item">g</div>
 					<div class="item w">g</div>
 						<div class="item">g</div>
@@ -52,22 +105,11 @@
 					
 					<div class="item">g</div>
 					<div class="item">g</div>
-					<div class="item w">g</div>
-					<div class="item">d</div>
-					<div class="item w">g</div>
+					<div class="item1 h">g</div>
 					<div class="item">g</div>
 					<div class="item">g</div>
-					<div class="item w">g</div>
-						<div class="item">g</div>
-					<div class="item">g</div>
-					
-					<div class="item">g</div>
-					<div class="item">g</div>
-					<div class="item w">g</div>
-					<div class="item">g</div>
-					<div class="item">g</div>
-					<div class="item w">g</div>
-					<div class="item">d</div>
+					<div class="item h">g</div>
+					<div class="item1 h">d</div>
 					<div class="item w">g</div>
 					<div class="item">g</div>
 					<div class="item">g</div>

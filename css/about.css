@@ -601,7 +601,7 @@ box-shadow: 0 7px #571818;
 	top:-113px;
 }
 
-.ishank,.rohit,.yogesh{
+.ishank,.rohit,.anagh{
 background:#F0F7F6;
 }
 .pic{
@@ -617,8 +617,8 @@ background-image:url(../images/avatars/ishank.jpg) ;
 .rohit .pic{
   background-image:url(../images/avatars/rohit.jpg) ;
 }
-.yogesh .pic{
-  background-image:url(../images/avatars/yogi.jpg) ;
+.anagh .pic{
+  background-image:url(../images/avatars/anagh.jpg) ;
 }
 .desig h1{
 line-height:30px;

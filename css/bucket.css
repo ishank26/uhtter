@@ -5,6 +5,7 @@ body{
 background:#E4B49B;
 width: 100%;
 height: 100%;
+cursor: pointer;
 }
 
 #container{
@@ -36,17 +37,74 @@ height: 100%;
 	float: left;
 	}
 .item {
-width:20%;
+width:250px;
 margin:10px;
-background: red;
+background: orchid;
 height: 400px;
 float: left;
 }
-.item.w{
-	width: 30%;
+.w{
+	width: 200px;
     background: floralwhite;    
     height: 200px;
 }
+.h{
+	height: 500px;
+
+}
+.item1{
+width:300px;
+margin:10px;
+background: oldlace;
+float: left;
+}
+
+  .add{
+	width:30px;
+	height: 30px;
+	background: burlywood;
+	position: relative;
+	top: 10px;
+	float: right;
+	right: 10px;
+}
+
+.do{
+	position: relative;
+	bottom: -85%;
+	width: 100%;
+	height:15%;
+	background: blue;
+	opacity: 1;
+}
+
+
+.say{
+	position:relative;
+	width: 100%;
+    height:10%;
+    background: greenyellow;
+    bottom: -85%;
+    opacity: 0;
+}
+ .sopanel{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: red;
+  top: 0%;
+  opacity: 1;
+}
+.item:hover .do{
+	bottom: -76%;
+
+}
+
+.item:hover .say{	
+	bottom: -76%;
+	opacity: 1;
+}
+
 
 
 
@@ -65,5 +123,8 @@ float: left;
 	width:95%;
 	height:200px;
 	background: honeydew;
+}
 
+span{
+	
 }
