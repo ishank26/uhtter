@@ -13,7 +13,7 @@ width: 100%;
    width:100%;
    background:url('../images/book.jpg') 0 no-repeat fixed;
    background-size: cover;
-	height:100%;
+	min-height:100%;
 	position:relative;
 	margin: 0 auto;
 	background-attachment: fixed;
@@ -135,11 +135,12 @@ margin-bottom: 20px;
     -ms-box-sizing: border-box;
      -o-box-sizing: border-box;
         box-sizing: border-box;
+	min-height: 100%;
+	padding: 20px 30px;
 	
-	padding: 20px 30px 20px 30px;
 }
 .missionp{
-	height: 50px;
+	min-height: 100%;
 	padding:10px;
 	text-align: center;
 	font-size: 50px;
@@ -164,7 +165,7 @@ margin-bottom: 20px;
 
  	float:left;
    
- 	height: auto;
+ 	min-height: 100%;
  	background: #e74c3c;
  	padding:30px 160px;
  	box-shadow: 0px 6px 4px #4E3838;
@@ -226,7 +227,7 @@ margin:20px 90px;
 }
 .addons{
 	height: auto;
-	
+	min-height: 100%;
 	float: left;
 	width:100%;
    
@@ -297,7 +298,86 @@ width: 210px;
   width: 210px;
 }
 
+.crew{
+ background: #3498db ;
+ min-height:100%;
+-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+        box-sizing: border-box;
 
+ padding:50px 100px;
+
+ 
+}
+ .crew h2{
+ 	
+ 	line-height: 90px;
+ 	
+ 	margin-bottom: 10px;
+ 	color:#2d3e50;
+    font-size: 50px;
+ 	text-align:center; 
+ 	font-family: 'lobster_1.4regular';
+ 	margin-top: 50px;
+
+ }
+.team{
+	max-width: 400px;
+	
+    min-height: 430px;
+    background:#fff;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top:10px;
+
+}
+#anagh{
+	margin-top: 10px;
+
+}
+#rohit{
+	margin-top: 10px;
+}
+.pic{
+width:150px;
+height:150px;
+margin:20px 80px;  
+}
+#ishank .pic{
+background-image:url(../images/avatars/ishank.jpg) ;
+}
+#rohit .pic{
+  background-image:url(../images/avatars/rohit.jpg) ;
+}
+#anagh .pic{
+  background-image:url(../images/avatars/anagh.jpg) ;
+}
+.desig h1{
+line-height:30px;
+text-align:center;
+font-size:20px;
+margin: 8px;
+font-family: 'pt_sansbold';
+}
+.desig span{
+color:#D85060;
+font-size:0.8 em;
+}
+.content{
+max-width:280px;
+height:100%;
+margin: 10px;
+padding: 10px;
+
+}
+.content p{
+font-size:1em;
+font-family: 'pt_sans_captionregular';
+ text-align:center;
+line-height:1.3em;
+}
 .contact {
 overflow:hidden;
 background:#745684;
@@ -448,86 +528,7 @@ position: relative;
 
 
 
-.crew{
- background: #3498db ;
- height:auto;
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-     -o-box-sizing: border-box;
-        box-sizing: border-box;
 
- padding:50px 100px;
-
- 
-}
- .crew h2{
- 	
- 	line-height: 90px;
- 	
- 	margin-bottom: 10px;
- 	color:#2d3e50;
-    font-size: 50px;
- 	text-align:center; 
- 	font-family: 'lobster_1.4regular';
- 	margin-top: 50px;
-
- }
-.team{
-	max-width: 400px;
-	
-    min-height: 430px;
-    background:#fff;
-    display: inline-block;
-    margin-right: 20px;
-    margin-top:10px;
-
-}
-#anagh{
-	margin-top: 10px;
-
-}
-#rohit{
-	margin-top: 10px;
-}
-.pic{
-width:150px;
-height:150px;
-margin:20px 80px;  
-}
-#ishank .pic{
-background-image:url(../images/avatars/ishank.jpg) ;
-}
-#rohit .pic{
-  background-image:url(../images/avatars/rohit.jpg) ;
-}
-#anagh .pic{
-  background-image:url(../images/avatars/anagh.jpg) ;
-}
-.desig h1{
-line-height:30px;
-text-align:center;
-font-size:20px;
-margin: 8px;
-font-family: 'pt_sansbold';
-}
-.desig span{
-color:#D85060;
-font-size:0.8 em;
-}
-.content{
-max-width:280px;
-height:100%;
-margin: 10px;
-padding: 10px;
-
-}
-.content p{
-font-size:1em;
-font-family: 'pt_sans_captionregular';
- text-align:center;
-line-height:1.3em;
-}
 
 input[type=submit]:active {
 	box-shadow: 0 0 #693434;
