@@ -7,7 +7,7 @@ text-decoration:none;
 }
 html, body {
     height:100%;
-	background:#403431;
+	background:#2d3536;
 }
 body{
 	margin-bottom: 40px;
@@ -86,11 +86,11 @@ line-height:50px;
 padding:0px 10px;
 }
 .who h2{
-font-family: 'Roboto', sans-serif;
-font-size:1.1em;
+font-family: 'candela_boldbold';
+font-size:1.3em;
 text-align:center;
 color:#2d2d2d;
-padding:20px 15px 15px 15px ;
+padding:10px 15px 25px 15px ;
 line-height:30px;
 }
 
@@ -135,11 +135,11 @@ position:relative;
 top:10px;
 text-align:center;
 text-shadow: 0px 1px 2px #fff;
-  font-family: 'candela_boldbold';
+font-family: 'pt_sansbold';
  }
  .quot p{
  line-height:25px;
-  font-family: 'open_sans_condensedbold';
+    font-family: 'candela_boldbold';
  font-size:20px;
  padding:20px 15px 15px !important  ;
 float:left;
@@ -362,81 +362,15 @@ opacity: 0.7;
   transform:scale(2.0);
   position:absolute;
   }
-.ourbelief{background:#86c9ef; }
 
-.belief:{width:658px;height:160px;}
-.belief .be{
-background-image:url(../images/be.jpg);
-width:100px;
-height:47px;
-position:relative;
-top:-60px;
-z-index:0;
-left:450px;
 
-}
-.belief:hover{
--webkit-transition:all 150ms linear;
--moz-transition:all 150ms linear;
--o-transition:all 150mslinear;
-}
 
- .ourbelief h1{
-   font-family: 'lobster_1.4regular';
- line-height:60px;
- text-align:center;
- font-size:3em;
- margin: 0;
-padding: 5px 10px;
-position:relative;
-color:#350225;
-
- }
-
-.belief h3{
-float:left;
-  font-family: 'lobster_1.4regular';
-color:#091042;
-right:-5px;
-font-size:1.2em;
-padding:10px 10px 15px 15px;
-position:relative;
-top:5px;
-}
-.belief h4{
-   font-family: 'lobster_1.4regular';
-position:relative;
-top:1px;
-right:-10px;
-float:left;
-color:#091042;
-padding:8px 10px 10px;
-font-size:1.5em;
-  -webkit-transition:all 150ms linear;
-	  -moz-transition:all 150ms linear;
-	   -o-transition:all 150mslinear;
-	   opacity:0;
-}
-.belief span{
-font-family: 'pt_sans_captionregular';
-color:#fff;
-}
-.ourbelief:hover h3{opacity:0;}
-.ourbelief:hover h4{
-  -webkit-transition:all 150ms linear;
-  -moz-transition:all 150ms linear;
- -o-transition:all 150ms linear;
-
-position:relative;
-top:-70px;
-opacity:1;
-}
 .drag{
 background-image:url(../images/socialico/drag.png) ;
 }
 
   .follow{
-  background:#D473E3;
+  background:#3498db;
   }
   .follow p{
    font-family: 'lobster_1.4regular';
@@ -444,7 +378,7 @@ background-image:url(../images/socialico/drag.png) ;
   top:10px;
   text-align:center;
   font-size:1.7em;
-  color:#491351;
+  color:#D3F165;
   text-shadow: 0px 1px 2px #CF8DD9;
   }
   .follow .set{
@@ -494,7 +428,7 @@ margin:0px;
 background:#bff073 ;
 line-height:160px;
 text-align:center;
-    font-family: 'candela_boldbold';
+   font-family: 'pt_sansbold';
 font-size:45px;
 padding-right:70px;
  text-shadow: 0px 1px 2px #d5e5bc;
@@ -508,7 +442,7 @@ background:#F0EC95;
   margin:10px 30px;
 }
 .features{
-  background: #7f8c8d;
+  background: #79443b;
 
 }
 .thing{
@@ -529,7 +463,7 @@ background:#F0EC95;
   height: auto;
   background: #ecf0f1;
   position: relative;
-  top:-20px;
+  top:-10px;
   float: left;
   font-size: 15px;
   padding: 10px 5px;
@@ -555,27 +489,30 @@ top:-25px;
 position: relative;
 left:60px;
 }
-
-#heart{
+#journal {
+  top:-20px;
+}
+#share{
 position: relative;
-top:-60px;
+top:-20px;
 width: 210px;
 }
-#pin{
+#user{
   position: relative;
-  top:-120px;
+  top:-20px;
 }
-#pin .para{
+#user .para{
   width: 210px;
 }
 #user{
   position: relative;
   top:-15px;
 }
-#pencil{
+#diversify{
   position: relative;
-  top:-15px;
+  top:-10px;
 }
+
 .crew .down{
 	padding:0px;
 margin:0px;
@@ -606,19 +543,19 @@ background:#F0F7F6;
 }
 .pic{
 position:relative;
-width:150px;
-height:150px;
+width:120px;
+height:120px;
 top:30px;
-left:89px;
+left:20px;
 }
 .ishank .pic{
-background-image:url(../images/avatars/ishank.jpg) ;
+background-image:url(../images/avatars/ishank1.jpg) ;
 }
 .rohit .pic{
-  background-image:url(../images/avatars/rohit.jpg) ;
+  background-image:url(../images/avatars/rohit1.jpg) ;
 }
 .anagh .pic{
-  background-image:url(../images/avatars/anagh.jpg) ;
+  background-image:url(../images/avatars/anagh1.jpg) ;
 }
 .desig h1{
 line-height:30px;
@@ -632,20 +569,6 @@ font-family: 'pt_sansbold';
 .desig span{
 color:#D85060;
 font-size:0.8 em;
-}
-.content{
-width:280px;
-height:240px;
-
-position:relative;
-top:30px;
-left:24px;
-}
-.content p{
-font-size:1em;
-font-family: 'pt_sans_captionregular';
-align:center;
-line-height:1.3em;
 }
 
 #footer p{
