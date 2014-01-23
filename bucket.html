@@ -34,6 +34,7 @@ $( window ).load( function()
                           
                         </script>
 
+                     
 
 
                        <!--FIX THIS-->
@@ -138,7 +139,21 @@ $( window ).load( function()
 
 
 
+   <!--hover animation-->
+<script type="text/javascript">
+	$(document).ready(function($) {
+	$(".item").on("mouseover", function () {
+		$('.say').toggle(function(){
+			event.preventDefault();
+		}
+               
+			);
+    });
+    $('.item').add('.add');
+});
 
+
+</script>
 
 
 

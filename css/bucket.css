@@ -95,10 +95,7 @@ float: left;
   top: 0%;
   opacity: 1;
 }
-.item:hover .do{
-	bottom: -76%;
 
-}
 
 .item:hover .say{	
 	bottom: -76%;
